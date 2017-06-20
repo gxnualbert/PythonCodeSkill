@@ -1,5 +1,10 @@
-# -*- coding:utf-8 -*-
-
+#!usr/bin/env python
+#-*- coding:utf-8 _*-
+"""
+@author:albert.chen
+@file: 2-4根据字典值大小对字典排序.py
+@time: 2017/06/20/20:33
+"""
 # 1、过滤列表中的负数
 # 2、筛选出字典中值高于90的项
 # 3、筛选出集合中能被3整除的元素
@@ -31,7 +36,6 @@ print b
 # 的意思就是字典的键是学号，字典的值是分数
 d={x:randint(60,100) for x in xrange(1,21)}
 print d
-
 # for x in d,这种只能迭代出字典的键，要迭代字典的键值，需要用for k,v in d.iteritems()
 # {k:v for k,v in d.iteritems() if v >90} 这句话的意思就是，迭代字典d的键值，如果v的值>90，那么将返回键值对k,v
 dict1={k:v for k,v in d.iteritems() if v >90}
