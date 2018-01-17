@@ -6,7 +6,7 @@
 @time: 2017/06/20/22:11
 """
 
-
+在File---settings---File and Code Templates---Python script 脚本里添加:
 #!usr/bin/env python
 #-*- coding:utf-8 _*-
 """
